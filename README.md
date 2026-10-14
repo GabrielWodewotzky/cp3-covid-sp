@@ -2,10 +2,9 @@
 
 Disciplina **Data Analytics em SP**.
 
-**Integrantes:** Gabriel Simioni (RM563475) · Guilherme Vega (RM562655) · Davi Xavier (RM563572) ·
-Gabriel Pereira (RM563571) · Luiz Henrique (RM563795) · Felipe Ramalho (RM565073)
+**Integrantes:** Gabriel Simioni (RM563475) · Davi Xavier (RM563572) 
 
-🔗 **Aplicação online:** https://SEU-APP.streamlit.app  <!-- TODO: preencher após o deploy -->
+🔗 **Aplicação online:** https://cp3-covid-sp.streamlit.app
 
 ## Problema
 A pandemia de COVID-19 afetou de forma muito desigual os municípios paulistas. O dashboard permite explorar
@@ -35,8 +34,8 @@ requirements.txt  # dependências
 
 ## Executar localmente
 ```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPO.git
-cd SEU-REPO
+git clone https://github.com/GabrielWodewotzky/cp3-covid-sp.git
+cd cp3-covid-sp
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
